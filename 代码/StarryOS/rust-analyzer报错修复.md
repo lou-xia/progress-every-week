@@ -1,6 +1,7 @@
 ## rust-analyzer报错修复
 
 ### 报错分析：
+
 <details>
 <summary>  
 rust-analyzer 报错信息
@@ -566,7 +567,6 @@ Caused by:
      4: <fn() as core::ops::function::FnOnce<()>>::call_once
                at /root/.rustup/toolchains/nightly-2025-12-12-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs:250:5
   note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose backtrace.
-
 ```
 
 </details>
